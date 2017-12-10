@@ -1,5 +1,3 @@
-package problems
-
 class InverseCaptcha {
   fun run() {
     var sum1 = 0

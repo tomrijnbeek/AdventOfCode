@@ -1,5 +1,3 @@
-package problems
-
 class Checksum {
   fun run() {
     val lines = input.split("\n")

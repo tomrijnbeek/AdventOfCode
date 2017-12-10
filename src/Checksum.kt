@@ -1,7 +1,7 @@
 package problems
 
-class Checksum : Problem() {
-  override fun run() {
+class Checksum {
+  fun run() {
     val lines = input.split("\n")
     val checkSum1 = lines.sumBy(fun (line : String) : Int {
       val nums = line.split("\t").map { it.toInt() }
@@ -17,7 +17,7 @@ class Checksum : Problem() {
             continue
           }
           if (nums[i] % nums[j] == 0) {
-            return nums[i] / nums[j]
+            return@sumBy nums[i] / nums[j]
           }
         }
       }

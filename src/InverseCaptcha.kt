@@ -1,7 +1,7 @@
 package problems
 
-class InverseCaptcha : Problem() {
-  override fun run() {
+class InverseCaptcha {
+  fun run() {
     var sum1 = 0
     var sum2 = 0
     for (i in input.indices) {
